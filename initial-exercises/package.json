@@ -1,0 +1,31 @@
+{
+  "name": "initial-exercises",
+  "version": "1.0.0",
+  "description": "Initial exercises for part 9",
+  "main": "index.js",
+  "scripts": {
+    "dev": "ts-node-dev index.ts",
+    "start": "ts-node index.ts",
+    "lint": "eslint --ext .ts .",
+    "ts-node": "ts-node",
+    "calculateBmi": "ts-node bmiCalculator.ts",
+    "calculateExercises": "ts-node exerciseCalculator.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Mickey",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/express": "^4.17.13",
+    "@types/node": "^16.11.12",
+    "@typescript-eslint/eslint-plugin": "^5.6.0",
+    "@typescript-eslint/parser": "^5.6.0",
+    "eslint": "^8.4.1",
+    "ts-node": "^10.4.0",
+    "ts-node-dev": "^1.1.8",
+    "tslib": "^2.3.1",
+    "typescript": "^4.5.2"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
